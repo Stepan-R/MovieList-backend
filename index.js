@@ -51,6 +51,10 @@ connectToDatabase();
 const db = client.db('movies');
 app.use(express.json());
 
+app.get('/', (req, res) => {
+  res.send('Hello World')
+})
+
 app.get('/movies', async (req, res) => {
   try {
     const movies = await db.collection('movies').find().toArray();
