@@ -3,7 +3,6 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 
-
 // app.use((req, res, next) => {
 //   // res.header('Access-Control-Allow-Origin', '*');
 //   // res.header('Access-Control-Allow-Methods', 'GET,PATCH,POST,DELETE');
@@ -15,7 +14,7 @@ const cors = require('cors');
 
 // app.options('*', cors(corsOptions)); 
 
-const corsOptions ={
+const corsOptions = {
     origin:'*', 
     credentials:true,
     // optionSuccessStatus:200
