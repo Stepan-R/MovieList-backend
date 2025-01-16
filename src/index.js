@@ -1,6 +1,7 @@
 const express = require('express');
 
 const app = express();
+
 const cors = require('cors');
 
 // app.use((req, res, next) => {
@@ -12,7 +13,7 @@ const cors = require('cors');
 //   next();
 // });
 
-// app.options('*', cors(corsOptions)); 
+// app.options('*', cors(corsOptions));
 
 // const corsOptions = {
 //     origin:'*', 
